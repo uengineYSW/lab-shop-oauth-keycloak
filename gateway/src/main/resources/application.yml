@@ -5,7 +5,7 @@ server:
 
 
 keycloak-client:
-  server-url: http://localhost:9090
+  server-url: https://9090-uengineysw-labshopoauth-hekwtlo77wb.ws-us95.gitpod.io
   realm: master
 
 spring:
@@ -44,9 +44,9 @@ spring:
             user-name-attribute: preferred_username
         registration:
           keycloak:
-            client-id: "<client-id>"
-            client-secret: 
-            redirect-uri: "gateway-path/login/oauth2/code/client-name"
+            client-id: 12stmall
+            client-secret: gWwKqCdvOh2LWifnwVBRkXQx5yurY656
+            redirect-uri: https://8088-uengineysw-labshopoauth-hekwtlo77wb.ws-us95.gitpod.io/login/oauth2/code/12stmall
             authorization-grant-type: authorization_code
             scope: openid
       resourceserver:
